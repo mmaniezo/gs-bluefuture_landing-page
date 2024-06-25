@@ -17,4 +17,4 @@ Rafael de Mônaco Maniezo  RM: 556079
 
 ## Descrição do Projeto
 Essa Landing Page é dedicada à apresentar a solução que desenvolvemos para o tema da Global Solution: nossa avaliação semestral na FIAP. O tema dessa GS é os oceanos e sua preservação. Para isso, idealizamos o Sea Connect, um app onde os usuários podem visualizar dados sobre a saúde das águas do mar e se conectar com outras pessoas e até com empresas, com o objetivo de engajar a sociedade para o cuidado dos oceanos. <br><br>
-Confira mais detalhes acessando a página nesse link: https://leandrns.github.io/gs-bluefuture_landing-page/
+Confira mais detalhes acessando a página nesse link: (https://mmaniezo.github.io/gs-bluefuture_landing-page/)
