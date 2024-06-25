@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans";
+}
+
+body {
+    background-image: url(../images/background_blue-particles.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fafafa;
+    border-radius: 10px;
+    margin: 15px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 0 18px 0 #000;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, #1877F2 0%, #0262b1 100%);
+    padding: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+.header i {
+    margin-left: 15px;
+}
+
+.form {
+    padding: 18px;
+}
+
+.switch_account-type {
+    padding: 8px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.form-content {
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+    font-size: 20px;
+}
+
+.form-content label {
+    display: inline-block;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.form-content input {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 8px;
+    border: 2px solid #c7c7c7;
+    transition: all .3s ease-out;
+}
+
+.form-content input:focus {
+    scale: 1.02;
+    background-color: #eeeeee;
+}
+
+.form-content a {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    visibility: hidden;
+}
+
+.form button {
+    background-color: #1877F2;
+    color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all .3s ease-out;
+}
+
+.form button:hover {
+    scale: 1.02;
+    background-color: #c7c7c7;
+    color: #000;
+}
+
+.form-content.error input {
+    border-color: red;
+}
+
+.form-content.error a {
+    font-size: 14px;
+    color: red;
+    visibility: visible;
+}

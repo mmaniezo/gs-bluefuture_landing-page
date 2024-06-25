@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/logo_golfinho.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="../styles/cadastro.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <div class="container">
+        <section class="header">
+            <h2>Cadastro - Pessoa Física</h2>
+            <i class="fa-solid fa-user fa-lg" style="color: #ffffff;"></i>
+        </section>
+        <p class="switch_account-type">Você é uma empresa? Cadastre-se <a href="cadastro_empresa.html">aqui</a></p>
+        <form id="form" class="form">
+            <div class="form-content">
+                <label for="name">Nome completo</label>
+                <input type="text" id="name" placeholder="Digite seu nome completo...">
+                <a>Mensagem de erro</a>
+            </div>
+            <div class="form-content">
+                <label for="username">Nome de usuário</label>
+                <input type="text" id="username" placeholder="Digite seu nome de usuário...">
+                <a>Mensagem de erro</a>
+            </div>
+            <div class="form-content">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Digite seu email...">
+                <a>Mensagem de erro</a>
+            </div>
+            <div class="form-content">
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone" placeholder="Digite seu telefone...">
+                <a>Mensagem de erro</a>
+            </div>
+            <div class="form-content">
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="Digite sua senha...">
+                <a>Mensagem de erro</a>
+            </div>
+            <div class="form-content">
+                <label for="password-confirmation">Confirme a senha</label>
+                <input type="password" id="password-confirmation" placeholder="Digite sua senha novamente...">
+                <a>Mensagem de erro</a>
+            </div>
+    
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+
+    <script src="../scripts/cadastro_pessoa-fisica.js"></script>
+</body>
+</html>
